@@ -1,6 +1,6 @@
 # AI-Powered Resume Ranking System 📄
 
-An AI-driven application that parses multiple candidate resumes (PDF/DOCX), extracts their skills, experience, and education using NLP, and ranks them against a provided Job Description. Built entirely in Python using Streamlit, spaCy, and scikit-learn.
+An AI-driven application that parses multiple candidate resumes (PDF/DOCX), extracts their skills, experience, and education using NLP, and ranks them against a provided Job Description. Built entirely in Python using Streamlit, and scikit-learn.
 
 ## Features
 - **Multi-Format Parsing:** Support for PDF and DOCX files.
@@ -16,7 +16,7 @@ An AI-driven application that parses multiple candidate resumes (PDF/DOCX), extr
 
 ## Project Structure
 - `app.py`: Main Streamlit frontend and application lifecycle.
-- `parser.py`: PDF/DOCX handling using `PyPDF2`, `pdfplumber`, and `python-docx`. Information parsing using regular expressions and `spaCy`.
+- `parser.py`: PDF/DOCX handling using `PyPDF2`, `pdfplumber`, and `python-docx`. Information parsing using regular expressions.
 - `jd_processor.py`: Structures the Job Description text.
 - `skill_extractor.py`: Custom skill mapping logic.
 - `matcher.py`: TF-IDF cosine similarity model.
